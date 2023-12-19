@@ -1,0 +1,21 @@
+.main_container {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.main_header {
+  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.main_header:hover {
+  color: rgb(218, 22, 100);
+  transition: linear 0.3s;
+  cursor: pointer;
+}
+
+.name {
+  color: rgb(218, 22, 100);
+}

@@ -1,0 +1,19 @@
+.education_container {
+  text-align: center;
+  color: aliceblue;
+}
+
+.education {
+  background-color: rgba(131, 101, 112, 0.5);
+  margin: 50px 200px 50px 200px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 30px;
+  min-width: 300px;
+  font-size: 20px;
+}
+
+.education:hover {
+  transition: linear 0.3s;
+  background-color: rgba(202, 80, 129, 60%);
+}
