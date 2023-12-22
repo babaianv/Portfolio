@@ -1,0 +1,36 @@
+.contact_container {
+  text-align: center;
+  background-color: rgba(131, 101, 112, 0.5);
+  margin: 100px 200px 50px 200px;
+  border: 1px solid black;
+  border-radius: 30px;
+  min-width: 300px;
+  font-size: 20px;
+  color: aliceblue;
+  padding: 20px;
+  transition: background-color linear 0.3s;
+}
+
+.contact_container:hover {
+  background-color: rgba(202, 80, 129, 60%);
+}
+
+.phone a,
+.email a {
+  color: rgb(211, 217, 223);
+  transition: background-color linear 0.3s;
+}
+
+.phone a:hover,
+.email a:hover {
+  color: rgb(157, 114, 131);
+}
+
+.profilsLinks img {
+  width: 75px;
+  height: 25px;
+}
+
+.profilsLinks img:hover {
+  filter: brightness(0.8);
+}

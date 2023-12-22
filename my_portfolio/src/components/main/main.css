@@ -1,0 +1,44 @@
+.main_container {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 200px;
+  font-size: 30px;
+}
+
+.main_header {
+  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.main_header:hover {
+  color: rgb(218, 22, 100);
+  transition: linear 0.3s;
+  cursor: pointer;
+}
+
+.name {
+  color: rgb(218, 22, 100);
+}
+
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.printText{
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 24px;
+  border-right: 1px solid #000;
+  animation: typing 4s steps(40, end) 2s forwards, blink 1s step-end infinite;
+}
+
+
