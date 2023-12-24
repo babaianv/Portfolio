@@ -3,24 +3,46 @@
   color: aliceblue;
   margin-top: 200px;
   font-size: 30px;
+  overflow: hidden;
+}
+
+.main_header,
+.printText {
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .main_header {
-  font-family: "Nunito", sans-serif;
-  font-family: "Playfair Display", serif;
+  animation: appearFromLeft 3s forwards;
 }
 
-.main_header:hover {
+.printText {
+  animation: appearFromRight 3s forwards;
+}
+
+.main_header:hover,
+.name:hover {
   color: rgb(218, 22, 100);
-  transition: linear 0.3s;
-  cursor: pointer;
 }
 
 .name {
   color: rgb(218, 22, 100);
 }
 
+@keyframes appearFromLeft {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 
-
-
-
+@keyframes appearFromRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
